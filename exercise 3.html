@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Use body for full screen layout and centering */
+        body {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(189, 203, 207);
+        }
+
+        .parent {
+            width: 600px;
+            background-color: white;
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Image styling */
+        .image {
+            padding: 10px;
+        }
+
+        .image img {
+            width: 100%;
+            display: block;
+            border-radius: 10px;
+        }
+
+        /* Tags container */
+        .nature {
+            padding: 15px 20px 10px 20px;
+            display: flex;
+            gap: 15px;
+        }
+
+        .nature span {
+            outline: auto;
+            border-radius: 15px;
+            padding: 5px 10px;
+            background-color: white;
+        }
+
+        /* Text styles */
+        h1 {
+            font-size: 24px;
+            padding: 0 20px;
+        }
+
+        .p p {
+            padding: 0 20px 15px 20px;
+        }
+
+        /* Button section */
+        .butt {
+            text-align: center;
+            padding-bottom: 10px;
+        }
+
+        .button {
+            background-color: #e0f0ff;
+            color: #007bff;
+            padding: 10px 24px;
+            border: none;
+            border-radius: 999px;
+            font-weight: 500;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #d0eaff;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="parent">
+        <div class="image">
+            <img src="https://media.istockphoto.com/id/811944228/photo/man-and-dog-sitting-on-wooden-deck-at-bled-lake-slovenia.jpg?s=612x612&w=0&k=20&c=2G9DFeQ2l3wzFUIZbkn0hvrwwK_5oiWl2yY0cFL6of8="
+                alt="" width="375">
+        </div>
+        <div class="nature">
+            <span class="1">Nature</span>
+            <span>Lake</span>
+        </div>
+        <h1>Lorem, ipsum dolor.</h1>
+        <div class="p">
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora dolorum ex ab ad id assumenda maxime!
+            </p>
+        </div>
+        <div class="butt">
+            <button class="button">Read More</button>
+        </div>
+    </div>
+</body>
+
+</html>
